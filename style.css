@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(49, 16, 16);
+  width: 100%;
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  position: absolute;
+  background-color: gold;
+  text-decoration: none;
+  font-size: 2.3rem;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #000033;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 1.5s;
+  border-radius: 10px;
+  z-index: 9999;
+}
+
+a:hover {
+  background-color: #ff8c00;
+  margin-top: 2rem;
+  box-shadow: 3px 3px 3px rgba(1, 1, 3, 0.5);
+}
+
+.container {
+  width: 90%;
+  max-width: 720px;
+  height: auto;
+  position: relative;
+  top: 2rem;
+  background-color: #0e577c;
+  margin: 100px auto;
+  box-shadow: 10px 7px 5px rgba(1, 1, 3, 0.5);
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.main img {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 4px solid #fff;
+  box-shadow: 3px 3px 5px rgba(1, 1, 3, 0.75);
+}
+
+.main h1 {
+  padding-top: 1rem;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main hr {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.main p {
+  padding-top: 1rem;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .menu {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.menu .menu-kiri,
+.menu .menu-kanan {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menu .menu-kiri h3,
+.menu .menu-kanan h3 {
+  padding-top: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.menu .menu-kiri p,
+.menu .menu-kanan p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 0.85rem;
+  text-align: justify;
+}
+
+.kanan {
+  border-left: 2px solid #09a2ef;
+}
+
+.menu-kanan .kanan li {
+  padding: 0.5rem;
+}
+
+.menu-kanan .kanan h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.menu-kanan .kanan hr {
+  width: 150px;
+  margin: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .menu .menu-kiri,
+  .menu .menu-kanan {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  a {
+    font-size: 1.8rem;
+    top: 1.5rem;
+  }
+
+  .menu .menu-kiri,
+  .menu .menu-kanan {
+    width: 100%;
+  }
+
+  .main h1 {
+    font-size: 1.5rem;
+  }
+
+  .main hr {
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  a {
+    font-size: 1.5rem;
+    top: 1rem;
+  }
+
+  .container {
+    margin: 20px auto;
+  }
+
+  .main h1 {
+    font-size: 1.2rem;
+  }
+
+  .menu .menu-kiri p,
+  .menu .menu-kanan p {
+    font-size: 0.75rem;
+  }
+}

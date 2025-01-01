@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Alfiyan Akbar Rozi</title>
+    <meta name="title" content="alfiyan_akbar" />
+    <meta
+      name="description"
+      content=""
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="170"
+            height="40"
+            alt="Pfolio home"
+          />
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          data-nav-toggler
+          data-nav-toggle-btn
+          aria-label="Toggle menu"
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#skills" class="navbar-link">Skills</a>
+            </li>
+
+            <li>
+              <a href="#project" class="navbar-link">Project</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="home" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <h2 class="h1 hero-title">Alfiyan Akbar Rozi</h2>
+
+              <p class="hero-subtitle">Junior Programer</p>
+
+              <div class="hero-banner">
+                <img
+                  src="./assets/images/alyan.png"
+                  width="800"
+                  height="800"
+                  alt="kane williams"
+                  class="w-100"
+                />
+              </div>
+
+              <p class="section-text">
+                Hi, I’m Alfiyan Akbar Rozi and I am creative web & app developer
+                who dream making the world better place by creating captivating
+                products.
+              </p>
+
+              <a href="cv.html" class="btn has-before">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="service" aria-labelledby="service-label" id="service">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <p class="section-subtitle">Services That I Provide</p>
+
+                <h2 class="h2 section-title" id="service-label">Services</h2>
+              </div>
+
+              <p class="section-text">
+                We are dedicated to offering exceptional services designed
+                specifically to meet your unique needs. With years of
+                experience, a commitment to excellence, and a passion for
+                delivering quality results, we strive to provide solutions that
+                not only meet but exceed your expectations. Let us assist you in
+                achieving success through our professional and reliable
+                services, crafted with precision and care.
+              </p>
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-container service-list" data-slider-container>
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="desktop-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Website Design</h3>
+
+                    <p class="card-text">
+                      Transform your ideas into a visually captivating and
+                      user-friendly website. Our web design services combine
+                      creativity, functionality, and modern trends to ensure
+                      your online presence stands out.
+                    </p>
+
+                    <span class="text-lg card-number">01</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my website design service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="laptop-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Web Development</h3>
+
+                    <p class="card-text">
+                      Looking for a functional and dynamic website? I specialize
+                      in creating e-commerce sites, CMS, and custom web
+                      applications that fit your needs.
+                    </p>
+
+                    <span class="text-lg card-number">02</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my SEO Marketing service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="clipboard-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Content Writing</h3>
+
+                    <p class="card-text">
+                      Need high-quality content for your blog, website, or
+                      articles? I offer professional content writing services
+                      with a focus on engaging, SEO-optimized writing to help
+                      your website rank better and attract more visitors.
+                    </p>
+
+                    <span class="text-lg card-number">03</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my eCommerce service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="color-filter-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Graphic Design</h3>
+
+                    <p class="card-text">
+                      Looking for creative and professional designs? I offer
+                      graphic design services for logos, brochures, posters, and
+                      other visual materials to help you stand out and make a
+                      lasting impression.
+                    </p>
+
+                    <span class="text-lg card-number">04</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my Graphic Design service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="megaphone-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Digital Marketing</h3>
+
+                    <p class="card-text">
+                      Looking to grow your online presence? I provide digital
+                      marketing services including SEO, social media management,
+                      and paid advertising campaigns to help you reach a broader
+                      audience and boost your brand’s visibility
+                    </p>
+
+                    <span class="text-lg card-number">05</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my Digital Marketing service"
+                    ></a>
+                  </div>
+                </li>
+
+                <li class="slider-item" data-slider-item>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Social Media Management</h3>
+
+                    <p class="card-text">
+                      Looking to enhance your social media presence? I offer
+                      social media management services that include content
+                      creation, scheduling, and audience engagement to grow your
+                      following and boost interaction with your brand.
+                    </p>
+
+                    <span class="text-lg card-number">06</span>
+
+                    <a
+                      href="#"
+                      class="layer-link"
+                      aria-label="More about my Social Media service"
+                    ></a>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="slider-controls">
+                <button
+                  class="slider-control prev"
+                  data-slider-prev
+                  aria-label="Slide to previous item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+
+                <button
+                  class="slider-control next"
+                  data-slider-next
+                  aria-label="Slide to next item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SKILLS
+      -->
+
+        <section class="section skills" aria-label="our skills" id="skills">
+          <div class="container">
+            <p class="section-subtitle">My skills</p>
+
+            <h4 class="h2 section-title">
+              Crafting Digital Experiences, One Pixel at a Time.
+            </h4>
+
+            <div class="skills-wrapper">
+              <div>
+                <p class="section-text">
+                  Every project is a journey of transforming ideas into visually
+                  stunning and user-friendly digital experiences. By focusing on
+                  the smallest details, one pixel at a time, I ensure that each
+                  design element contributes to a seamless and memorable online
+                  presence. Let's create something extraordinary together!
+                </p>
+
+                <p class="section-text"></p>
+
+                <a href="#" class="btn has-before">info@alfiyan_akbar</a>
+              </div>
+
+              <div>
+                <ul class="skills-list">
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Design</p>
+
+                      <data class="progress-value" value="90">90%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 90%"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Branding</p>
+
+                      <data class="progress-value" value="80">80%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 80%"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Web Design</p>
+
+                      <data class="progress-value" value="95">95%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 95%"></div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Social Media</p>
+
+                      <data class="progress-value" value="85">85%</data>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 85%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #project
+      -->
+
+        <section class="portfolio" aria-labelledby="portfolio-label" id="project">
+          <div class="title-wrapper container">
+            <div>
+              <p class="section-subtitle" id="portfolio-label">My Website</p>
+
+              <h2 class="h2 section-title">My Project</h2>
+            </div>
+
+            <p class="section-text">
+              I have had the privilege of working on several exciting web
+              projects that showcase my skills and creativity. From custom
+              websites to responsive designs, each project reflects my
+              commitment to delivering high-quality and user-friendly
+              experiences. Check out my portfolio below to see how I can bring
+              your ideas to life!.
+            </p>
+          </div>
+
+          <div class="slider" data-slider>
+            <ul class="slider-container" data-slider-container>
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/s1.png"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Level Studio</h3>
+
+                    <p class="card-text">Website GYM</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/s2.png"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Rental Proyektor</h3>
+
+                    <p class="card-text">website bisnis</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+              <li class="slider-item">
+                <div
+                  class="portfolio-card img-holder"
+                  style="--width: 600; --height: 600"
+                >
+                  <img
+                    src="./assets/images/s3.png"
+                    width="600"
+                    height="600"
+                    loading="lazy"
+                    alt="portfolio"
+                    class="img-cover"
+                  />
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Portfolio</h3>
+
+                    <p class="card-text">My personal Branding</p>
+                  </div>
+
+                  <a href="#" class="layer-link"></a>
+                </div>
+              </li>
+
+            
+            <div class="slider-controls">
+              <button
+                class="slider-control prev"
+                data-slider-prev
+                aria-label="Slide to previous item"
+              >
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button
+                class="slider-control next"
+                data-slider-next
+                aria-label="Slide to next item"
+              >
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" aria-labelledby="blog-label" id="blog">
+          <div class="container">
+            <p class="section-subtitle" id="blog-label">Recent Articles</p>
+
+            <h2 class="h2 section-title">Latest News</h2>
+
+            <ul class="blog-list">
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 700; --height: 470"
+                  >
+                    <img
+                      src="./assets/images/sertifikat.jpeg"
+                      width="700"
+                      height="470"
+                      loading="lazy"
+                      alt="Get Started With Tiktok Ads."
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <time class="time" datetime="2022-06-24">
+                      <span class="span text-lg">1</span>                     
+                      Agustus 2024
+                    </time>
+
+                    <div>
+                      <h3 class="h3 card-title">
+                      Take a Programer Class
+                      </h3>
+
+                      <p class="card-text">
+                        On August 1, 2024, I began delving into the world of coding by enrolling in
+                          a course at one of the most renowned institutions in Yogyakarta. This course
+                          marked my first step toward mastering programming, understanding coding logic,
+                            and preparing myself for a career in the tech industry. With guidance from 
+                            professional mentors and a well-structured curriculum, I am optimistic about 
+                            acquiring the coding skills needed in this digital era.
+                      </p>
+
+                      <!-- <a href="#" class="btn has-before"> -->
+                        <!-- <span class="span">Read more</span> -->
+
+                        <ion-icon name="arrow-forward"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 700; --height: 470"
+                  >
+                    <img
+                      src="./assets/images/foto2.jpeg"
+                      width="700"
+                      height="470"
+                      loading="lazy"
+                      alt="UX in Ecommerce – 5 things to avoid."
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <time class="time" datetime="2022-06-27">
+                      <span class="span text-lg">17</span>
+                      Seftember 2024
+                    </time>
+
+                    <div>
+                      <h3 class="h3 card-title">
+                        A New Chapter in the World of Technology
+                      </h3>
+
+                      <p class="card-text">
+                        On September 17, 2024, I embarked on a new journey by starting my studies in the
+                        Informatics program. I am determined to focus on exploring the world of technology,
+                          understanding various aspects of programming, software development, and the
+                          ever-evolving digital innovations. This step marks a crucial milestone in 
+                          achieving my dream of contributing to the future of technology
+                      </p>
+
+                      <!-- <a href="#" class="btn has-before"> -->
+                        <!-- <span class="span">Read more</span> -->
+
+                        <ion-icon name="arrow-forward"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+<!-- contact -->
+ <section class="contact" id="contact">
+  
+ <form onsubmit="sendwhatsup(event)">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" class="name" placeholder="Nama" required />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input
+              type="text"
+              class="phone"
+              placeholder="Nomor Telepon"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <i data-feather="file-text"></i>
+            <input
+              type="text"
+              class="text"
+              placeholder="text"
+              required
+            />
+          </div>
+          <br />
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+        </section>
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Get in touch</p>
+          </li>
+
+          <li>
+            <a href="mailto:info@kwilliams.com" class="footer-link"
+              >info@alfiyan_akbar </a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Student</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">belive Allah with us</a>
+          </li>
+        </ul>
+
+        <ul class="social-list">
+          <li>
+            <a href="https://www.tiktok.com/@alfiyanakbar3" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/alfiyan_akbr/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://web.whatsapp.com/" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
